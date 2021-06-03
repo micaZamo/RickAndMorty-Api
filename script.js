@@ -8,17 +8,12 @@ const especie = document.getElementById("especie");
 const genero = document.getElementById("genero");
 const origen = document.getElementById("origen");
 const lugar = document.getElementById("lugar");
-const divcontenido = document.getElementById("contenido");
 
 btnVer.addEventListener("click", function () {
   const xhr = new XMLHttpRequest();
 
-  divcontenido.classList.toggle("div-contenido");
-
   xhr.addEventListener("load", function () {
     const respuesta = JSON.parse(xhr.responseText);
-    console.log(respuesta.results[0].id);
-    console.log(numero.value);
 
     for (i = 0; i < respuesta.results.length; i++) {
       if (respuesta.results[i].id == numero.value) {

@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 .div-contenido {
-  display: none;
+  display: flex;
   margin-top: 30px;
   width: 100%;
 }
@@ -21,8 +21,6 @@ body {
 .div-descripcion {
   display: block;
   margin-left: -50px;
-  font-size: 24px;
-  font-family: fangsong;
   margin-top: 20px;
 }
 
@@ -50,4 +48,10 @@ h3 {
 .input {
   text-align: center;
   margin-top: -17px;
+}
+p {
+  color: white;
+  font-style: oblique;
+  font-family: fangsong;
+  font-size: 24px;
 }
