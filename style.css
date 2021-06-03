@@ -1,0 +1,53 @@
+body {
+  background-image: url(rick-and-morty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.div-contenido {
+  display: none;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.div-imagen {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  margin-left: 163px;
+  margin-top: 40px;
+}
+
+.div-descripcion {
+  display: block;
+  margin-left: -50px;
+  font-size: 24px;
+  font-family: fangsong;
+  margin-top: 20px;
+}
+
+#btn-ver {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 53px;
+  background-color: goldenrod;
+  width: 410px;
+  height: 73px;
+  margin-left: 35%;
+}
+
+h3 {
+  text-align: center;
+  background: bisque;
+  height: 26px;
+  width: 410px;
+  margin-left: 35%;
+}
+
+.input {
+  text-align: center;
+  margin-top: -17px;
+}
